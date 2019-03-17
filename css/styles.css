@@ -1,0 +1,209 @@
+
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+}
+
+
+ .main-title{
+    font-size: 3rem;
+    padding: 1rem;
+    width: 70%;
+    text-align: left;
+    color: white; 
+}
+
+p {
+    color: rgb(160, 154, 154)
+}
+
+
+#title {
+    background-color: rgb(96, 168, 24);
+  
+}
+
+.container-fluid{
+    padding: 3% 15% 7%; 
+}
+
+.navbar{
+    padding-bottom: 4.5rem; 
+}
+
+.nav-item {
+    padding: 0 18px; 
+}
+
+.nav-link {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem; 
+}
+
+
+/* buttons */
+.button{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 10%;
+}
+
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+.wide{
+    width: 140px; 
+    
+}
+
+/* Title Image */ 
+
+.title-image {
+    width: 65%; 
+    transform: rotate(15deg); 
+    position: absolute;
+    right: 25%; 
+}
+
+/*features */
+
+    #features{
+        padding: 7% 15%; 
+        background-color: #fff;
+        position: relative;
+        z-index: 1; 
+    }
+
+    .feature-box {
+        text-align: center;
+        padding: 5%; 
+    }
+
+    .icon{
+        color: darkred;
+        margin-bottom: 1rem;
+    }
+
+    .icon:hover{
+        color: blueviolet;
+    }
+
+    /* Testimonials */
+
+    #testimonials {
+       
+        text-align: center;
+        background-color:  rgb(127, 201, 53);
+        color: #fff;
+    }
+
+    .testimonial-title{
+        font-size: 2.5rem;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: 600;
+        color: yellow;
+    }
+
+    .testimonial-image{
+        border-radius: 100%; 
+        width: 20%; 
+        margin: 20px; 
+    }
+
+
+    #press{
+        background-color:  rgb(127, 201, 53);
+        text-align: center;
+        padding-bottom: 3%; 
+    }
+
+    .press-logo{
+        width: 15%; 
+        margin: 20px 20px 50px; 
+    }
+
+    .carousel-item{
+        padding: 7% 15%;
+    }
+
+    .card-title{
+        text-align: center;
+        font-size: 2rem;
+        font-weight: 500;
+        color: purple;
+    }
+
+    .card-text{
+        text-align: center;
+        color: black; 
+        font-size: 1.3rem;
+    }
+
+    /* pricing */
+
+
+    .pricing-column{
+        padding: 3% 
+    }
+
+    .pricing-cards{
+        text-align: center;
+    }
+
+    @media (max-width: 1028px) {
+
+        #title {
+            text-align: center;
+        }
+
+        .main-title {
+            text-align: center;
+            font-size: 2rem;
+            margin: 0 15%; 
+        }
+
+        .title-image{
+            position: static;
+            transform: rotate(0deg); 
+        }
+    }
+
+    /* Call to Cation */
+
+    #cta{
+        background-color: rgb(127, 201, 53);
+        padding: 75px; 
+    }
+
+    .callToAction-title{
+        font-size: 4rem;
+        color: white;
+        text-align: center;
+    }
+
+    .action-button{
+        margin-top: 55px; 
+        font-size: 1.5rem;
+        font-weight: 500;
+        width: 170px;
+       
+        
+    }
+
+    .buttons{
+        margin: auto; 
+    }
+
+    /* Footer */
+
+    #footer{
+        background-color: #fff;
+        margin: 200px; 
+        text-align: center;
+    }
+
+    .footer-c{
+        font-size: 1.5rem;
+        color: lightslategrey;
+    }
